@@ -1,0 +1,30 @@
+# Core ML & Data
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+xgboost==2.0.3
+joblib==1.4.2
+# shap==0.45.1  # Optional: install if your Python version has a wheel available
+#               # pip install shap   (requires C compiler on Windows for Python 3.14)
+
+# API Backend
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.2
+python-dotenv==1.0.1
+
+# LLM Integration
+openai==1.30.5
+
+# Frontend
+streamlit==1.35.0
+plotly==5.22.0
+streamlit-extras==0.4.3
+
+# EDA & Visualization (scripts/notebooks)
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# HTTP client
+httpx==0.27.0
+requests==2.32.3

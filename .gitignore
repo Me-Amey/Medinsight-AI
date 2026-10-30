@@ -1,0 +1,44 @@
+# Environment & secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Serialized model artifacts (large files — regenerate with train_all.py)
+models/*.pkl
+
+# Processed data splits (regenerate with preprocess_*.py)
+data/processed/*.pkl
+
+# EDA plots (regenerate with preprocess_*.py)
+data/eda_plots/
+
+# Raw datasets (download from UCI or generate synthetically)
+# Comment out the next line if you want to track the raw CSVs
+data/raw/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

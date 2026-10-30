@@ -673,6 +673,20 @@ def main():
     elif "Heart"   in page: page_heart()
     elif "Kidney"  in page: page_ckd()
     elif "Model"   in page: page_model_info()
+    footer()
+
+def footer():
+    st.markdown("<br><br>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="text-align:center; padding: 1.2rem 0; 
+                border-top: 1px solid rgba(148,163,184,0.1);
+                font-size: 0.85rem; color: #475569;">
+        Made with <span style="color:#f87171; font-size:1rem;">❤️</span> by 
+        <span style="color:#38bdf8; font-weight: 700;">Amey</span>
+        &nbsp;·&nbsp; MedInsight AI
+    </div>
+    """, unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()
